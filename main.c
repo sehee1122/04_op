@@ -5,6 +5,8 @@
 
 int main(int argc, char *argv[]) {
 	
+	// Practice 04-1
+	
 	int x1, y, z, m;
 	int a, b, c;
 	
@@ -19,6 +21,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("y=%d, m=%d\n\n", y, m);
 	
+	// Practice 04-2
 	
 	int x2 = 3;
 	int cond1, cond2;
@@ -26,7 +29,31 @@ int main(int argc, char *argv[]) {
 	cond1 = 2 < x2 && x2 < 5;
 	cond2 = x2 > 1 || x2 < 4 && x2 > 3;
 	
-	printf("cond1=%d,cond2=%d", cond1, cond2);
+	printf("cond1=%d,cond2=%d\n\n", cond1, cond2);
+	
+	// Exercise
+	
+	printf("-1L < 1U : %d\n", -1L < 1U);
+	printf("-1L > 1UL : %d\n\n", -1L > 1UL);
+	
+	// Practice 04-3
+	
+	int x0 = 16;
+	int y0 = 7;
+	int add, sub, mul, div, rem;	// addition, subtraction, multiplication, division, remainder
+	
+	add = x0 + y0;
+	sub = x0 - y0;
+	mul = x0 * y0;
+	div = x0 / y0;
+	rem = x0 % y0;
+	
+	printf("input two integers : %d %d\n", x0, y0);
+	printf("+ result is %d\n", add);
+	printf("- result is %d\n", sub);
+	printf("* result is %d\n", mul);
+	printf("/ result is %d\n", div);
+	printf("%% result is %d\n", rem);
 	
 	return 0;
 }
